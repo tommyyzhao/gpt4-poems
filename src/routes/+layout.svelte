@@ -23,9 +23,7 @@
 
 	<footer>
 		<p>
-			written by GPT-4, edited by GPT-4, designed by GPT-4, curated by <a
-				href="https://x.com/tommyyzhao"
-				target="_blank">Thomas Zhao</a
+			written by GPT-4, curated by <a href="https://x.com/tommyyzhao" target="_blank">Thomas Zhao</a
 			>
 		</p>
 	</footer>

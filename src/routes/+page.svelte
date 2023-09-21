@@ -7,6 +7,7 @@
 </svelte:head>
 
 <section>
+	<span>Poems by GPT-4</span>
 	<p>
 		From stardust forged, life took its first breath,<br />Surviving, adapting, defying death,<br
 		/>Through ages of struggle and dark despair,<br />The march of life surged forth, aware.<br
@@ -39,7 +40,7 @@
 	section {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: left;
 		align-items: center;
 		flex: 0.6;
 		color: white;
@@ -52,7 +53,8 @@
 
 	span {
 		font-family: monospace;
-		font-size: 1.5rem;
+		font-size: 1.25rem;
+		margin-bottom: 1rem;
 	}
 
 	h1 {
