@@ -22,7 +22,12 @@
 	</main>
 
 	<footer>
-		<p>written by GPT-4, edited by GPT-4, curated by Thomas Zhao</p>
+		<p>
+			written by GPT-4, edited by GPT-4, designed by GPT-4, brought to you by <a
+				href="https://x.com/tommyyzhao"
+				target="_blank">Thomas Zhao</a
+			>
+		</p>
 	</footer>
 </div>
 
