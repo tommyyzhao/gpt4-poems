@@ -2,7 +2,6 @@
 	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
 	import { webVitals } from '$lib/vitals';
-	import Header from './Header.svelte';
 	import './styles.css';
 
 	/** @type {import('./$types').LayoutServerData} */
@@ -18,14 +17,12 @@
 </script>
 
 <div class="app">
-	<Header />
-
 	<main>
 		<slot />
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>written by GPT-4, edited by GPT-4, curated by Thomas Zhao</p>
 	</footer>
 </div>
 
@@ -34,6 +31,7 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
+		background: black;
 	}
 
 	main {
@@ -53,6 +51,8 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
+		color: white;
+		font-family: monospace;
 	}
 
 	footer a {
